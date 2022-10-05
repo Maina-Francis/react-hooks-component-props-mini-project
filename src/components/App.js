@@ -11,8 +11,9 @@ function App() {
     <div className="App">
       <Header name={blogData.name} />
       <About
-        src="https://via.placeholder.com/215"
-        alt="blog logo"
+        image={blogData.image}
+        // src="https://via.placeholder.com/215"
+        // alt="blog logo"
         about={blogData.about}
       />
       <ArticleList posts={blogData.posts} />
